@@ -4,7 +4,7 @@
 yum -y update
 yum -y install wget
 yum -y install libicu
-mkdir -P /root/temp
+mkdir -p /root/temp
 
 
 
