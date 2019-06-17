@@ -1,0 +1,6 @@
+az network vnet create \
+  --resource-group Learn-e73fbf18-b4fd-4410-8e98-633b1b78b294 \
+  --name vehicleAppVnet \
+  --address-prefix 10.0.0.0/16 \
+  --subnet-name webServerSubnet \
+  --subnet-prefix 10.0.1.0/24
